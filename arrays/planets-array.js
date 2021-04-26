@@ -12,6 +12,13 @@
         'Neptune'
     ];
 
+    var arr = [];
+    planets.forEach(function eachDay(day){
+        console.log(`here's the day today: ${day}`);
+        arr.push(day);
+    })
+    console.log(arr);
+
     /**
      * TODO:
      * Read each console log below, and write some javascript code to perform

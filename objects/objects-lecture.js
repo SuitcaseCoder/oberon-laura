@@ -7,28 +7,43 @@
 
 
 //  // New Object Instance
-// // Object is an existing js keyword
-// // we can create _instances_ of that object to create custom objects
-    console.log("object: " + Object);
-    typeof (Object);
+// console.log(losSpurs);
 
-    var faveFood = new Object();
-    console.log(faveFood);
-
+// // TODO: create an empty 'aboutMe' object using the `new` keyword and the Object() constructor
 
 //  // Object Literal:
-var myFirstObject = {
-    date: "April 28, 2021",
-    name: "Laura",
-    age: 30,
-    favoriteFoods: ['pizza', 'mango', 'coffee ice cream'],
-    livesInJapan: false
-}
+// console.log(theSpurs);
 
-console.log(myFirstObject);
+// // TODO: create an empty 'thisIsMe' object using object literal syntax
+
+
+// // what is a custom object?
+
 
 // // Setting properties within object
+// // okay, now let's add some information to our objects
 
+// // using dot notation (losSpurs)
+
+//syntax:
+// nameOfObject.nameOfProperty--> this creates the property within the object
+
+// // your turn!
+// // TODO: let's add a 'city', 'coach', and 'sport' property to our 'losSpurs' object using dot
+//  notation and then print the 'losSpurs' object
+
+
+// // using array notation (theSpurs)
+
+// // syntax:
+// // nameOfObject["nameOfProperty"] --> this creates a property within the object
+
+// //  your turn!
+// // TODO: let's add 'numOfPlayers', 'numOfChampsWon', and 'isBestTeam' properties to our same
+//  'losSpurs' object, using bracket notation. don't forget to assign values to these properties
+
+
+// // what's the difference between dot and bracket (array) notation?
 
 // // Accessing Information within Objects
 // // DOT NOTATION

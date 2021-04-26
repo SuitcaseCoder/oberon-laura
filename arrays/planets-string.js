@@ -11,13 +11,24 @@
      * console.log planetsArray to check your work
      */
 
-    // / without escaping pipe character, it just assumes the entire string is one element of an array
-    planetsArray = planetsString.split(",");
-    console.log(planetsArray);
-    // // escape pipe character
-    planetsArray = planetsString.split("\|");
 
-    console.log(planetsArray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // // we'll get to this later: //
 
     /**
      * TODO:

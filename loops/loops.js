@@ -447,5 +447,3 @@ console.log(outerLoop());
 //         console.log(`we now have ${dozens} dozen eggs`);
 //     }
 // }
-
-
