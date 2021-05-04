@@ -1,0 +1,138 @@
+/* CSS */
+
+/* multi-line comments
+ hello world
+ multipl lines
+ */
+
+/* WHat element(s) are you styling on your html page*/
+selector {
+    /*  actual style changes lives inside curly brackets*/
+    /*property: value*/
+    /*    property: what about the element you want to change (color, font size, background color) */
+    /*    value: what you want to change about the property (what color? which font size? which background color? )*/
+
+    /*    property and value separated by colon*/
+    /*end every declaration with a semicolon*/
+}
+
+
+h1 {
+    /*color: red; !* single comment *!*/
+    /*font-size: 30px;*/
+    /*border: 8px dotted black;*/
+    /*border: 2px solid red;*/
+    /*background-color: black;*/
+}
+
+
+span {
+    border: 1px solid red;
+
+}
+
+/* select by element name - tag */
+
+p, li {
+    color: mediumpurple;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+/* select by class name*/
+.pink {
+    color: deeppink;
+}
+
+/* select by id name*/
+#teal {
+    color: teal;
+}
+
+.border {
+    border: 2px solid orange;
+    border-radius: 8px;
+}
+
+/*all h2s inside of .season-container */
+.season-container h2 {
+    text-align: right;
+}
+
+h2.blue-border {
+    border: 3px solid cadetblue;
+}
+
+/*#yellow-border{*/
+/*    border: 3px solid yellow;*/
+/*}*/
+
+a {
+    color: darkred;
+}
+
+a:visited {
+    color: darkslategrey;
+}
+
+/*h1:hover{*/
+/*    font-size: 40px;*/
+/*}*/
+
+ol > li {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.bottom {
+    border: 6px solid orangered;
+}
+
+#inner-div {
+    border: 3px dotted deepskyblue;
+}
+
+/*.bottom>p {*/
+/*    text-align: center;*/
+/*}*/
+
+.bottom > p {
+    text-decoration: underline;
+}
+
+/*body * {*/
+/*    background-color: cadetblue;*/
+/*}*/
+
+
+header{
+    border: 1px solid grey;
+    height: 200px;
+    background-image: url("./assets/stephen-monterroso-lLxHZoGyKOk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+#circle {
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+#circle:hover{
+    transform: rotate(20deg);
+    height: 100px
+}
+
+#logo{
+    height: 50px;
+}
+
+#logo:hover{
+    border-radius: 50%;
+    transform: rotate(20deg);
+}
