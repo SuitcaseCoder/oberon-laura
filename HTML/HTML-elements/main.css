@@ -7,4 +7,42 @@ comment
 .fancy-header {
     color: purple; /* single line comment */
     text-decoration: underline;
+    /* second */
+    text-align: center;
 }
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+body {
+    background-color: lightpink;
+    background-image: url("diego-gonzalez-Xidprjjrcps-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    list-style-type: circle;
+}
+
+td, tr {
+    padding: 10px;
+    font-size: 24px;
+}
+
+a:visited {
+    color: lightskyblue;
+}
+
+a:hover {
+    color: darkslategrey;
+}
+
+a:active {
+    text-decoration: wavy;
+}
+
+
+
