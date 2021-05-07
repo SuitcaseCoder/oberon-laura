@@ -120,11 +120,19 @@ cta-btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 30%;
-    padding: 14px;
+    align-items: flex-start;
+    width: 28%;
+    margin: 14px;
     align-content: center;
     text-align: left;
+    background-color: black;
+    border-radius: 20px;
+    padding: 45px;
+    color: whitesmoke;
+}
+
+.product-item-container * {
+    margin: 5px;
 }
 
 strong  {
@@ -139,7 +147,9 @@ h3 {
 }
 
 .prod-img {
-    height: 100px;
+    height: 450px;
+    width: 100%;
+    border-radius: 20px;
 }
 
 .prod-desc {
@@ -148,7 +158,45 @@ h3 {
     text-align: justify;
 }
 
+/*FOOTER*/
+footer{
+    background-color: lightgray;
+    color: whitesmoke;
+    margin-top: 75px;
+    padding: 50px;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+}
 
+footer h3 {
+    font-family: Coustard;
+    font-size: 34px;
+
+}
+
+footer ul li {
+    list-style-type: none;
+    font-family: Montserrat;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Montserrat;
+}
+
+footer ul li a:visited {
+    text-decoration: double;
+    color: whitesmoke;
+    font-family: Montserrat;
+}
+
+footer ul li a:hover {
+    text-decoration: double;
+    color: black;
+    font-family: Montserrat;
+}
 
 
 
