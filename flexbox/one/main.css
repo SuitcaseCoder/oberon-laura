@@ -2,6 +2,14 @@ body {
     margin: 0 auto;
 }
 
+/* FONTS */
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
 /*NAV*/
 
 nav{
@@ -94,10 +102,6 @@ cta-btn {
     background-size: cover;
 }
 
-#why-txt-container h2 {
-    font-weight: 600;
-    font-size: 40px;
-}
 
 #why-txt-container>p {
     font-family: Montserrat;
@@ -117,6 +121,31 @@ cta-btn {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 30%;
+    padding: 14px;
+    align-content: center;
+    text-align: left;
+}
+
+strong  {
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Coustard', serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: left;
+}
+
+.prod-img {
+    height: 100px;
+}
+
+.prod-desc {
+    font-family: Montserrat;
+    font-weight: 400;
+    text-align: justify;
 }
 
 
