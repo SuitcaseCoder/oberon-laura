@@ -1,7 +1,17 @@
 /*  BOXES   */
+
+section {
+    background-color: lightskyblue;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
 .boxes {
     height: 200px;
-    width: 200px;
+    min-width: 200px;
     background-color: darkslategrey;
     border: 3px solid #0E2A23;
     margin: 25px;
@@ -10,33 +20,64 @@
     padding: 25px;
 }
 
-.flex-container {
-    background-color: #C6CFEC;
-    border: 2px solid black;
-    height: 600px;
+#two {
+    height: 500px;
 }
 
-.flex-container div {
-    background-color: #140E2A;
-    border: 2px solid white;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    height: 100px;
-    width: 100px;
+#four {
+    height: 50px;
 }
 
-#orange {
-    background-color: orange;
-    height: 75px;
+#six {
+    height: 250px;
+    /*flex-grow: 6;*/
 }
 
-#purple {
-    background-color: purple;
-    height: 125px;
+
+.order {
+    /*order: 1;*/
 }
 
-#green {
-    background-color: #2E8A5D;
-    height: 175px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.flex-container {*/
+/*    background-color: #C6CFEC;*/
+/*    border: 2px solid black;*/
+/*    height: 600px;*/
+/*}*/
+
+/*.flex-container div {*/
+/*    background-color: #140E2A;*/
+/*    border: 2px solid white;*/
+/*    margin: 10px;*/
+/*    padding: 20px;*/
+/*    font-size: 30px;*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*}*/
+
+/*#orange {*/
+/*    background-color: orange;*/
+/*    height: 75px;*/
+/*}*/
+
+/*#purple {*/
+/*    background-color: purple;*/
+/*    height: 125px;*/
+/*}*/
+
+/*#green {*/
+/*    background-color: #2E8A5D;*/
+/*    height: 175px;*/
+/*}*/
