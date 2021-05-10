@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #b4d455;
+}
+
+nav {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-links {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.social-links {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: black;
+}
+
