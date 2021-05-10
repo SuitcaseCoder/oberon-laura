@@ -1,9 +1,10 @@
-/*  BOXES   */
 
 section {
     background-color: lightskyblue;
     border: 2px solid black;
+    /* must have display:flex to 'unlock' all other flexbox properties*/
     display: flex;
+    /* changes the direction of 'main axis vs cross axis*/
     flex-direction: row;
     flex-wrap: wrap;
 
