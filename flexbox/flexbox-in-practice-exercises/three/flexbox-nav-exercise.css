@@ -17,28 +17,39 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
 }
 
 ul {
     display: flex;
     justify-content: space-between;
+    padding: 0;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .page-links {
     flex-direction: row;
-    flex-wrap: nowrap;
 }
 
 .social-links {
     flex-direction: row-reverse;
-    flex-wrap: nowrap;
+    /*margin: 0;*/
 }
 
 ul li {
     list-style-type: none;
+    display: flex;
+    margin: 12px;
+    text-decoration: none;
 }
 
 ul li a {
     color: black;
+    list-style-type: none;
+
 }
 
+#logo-img {
+    height: 64px;
+}
