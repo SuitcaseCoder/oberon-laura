@@ -1,0 +1,38 @@
+
+#logo {
+    height: 100px;
+}
+
+header {
+    display: flex;
+    color: red;
+}
+
+
+
+/* Small devices (phones and pocket devices, 576 and up) */
+@media screen and (min-width:576px) {
+    body {
+        background-color: mediumvioletred;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
+    body {
+        background-color: purple;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width:992px) {  body {
+    background-color: deepskyblue;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width:1200px) {
+    body {
+        background-color: lightsalmon;
+    }
+}
