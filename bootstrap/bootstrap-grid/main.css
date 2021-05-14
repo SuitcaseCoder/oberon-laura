@@ -1,8 +1,25 @@
-h3{
-    color: blue;
-    font-width: 800px;
+body {
+    /*background-color: white;*/
 }
 
+h2,h3{
+    font-width: 800px;
+    color: #B098A4;
+}
+
+h1, p{
+    color: #45503B;
+}
+
+i{
+    color: #B098A4;
+}
+
+.divider{
+    margin: 25px 0;
+    background-color: #DBD9DB;
+}
 .border {
         border: 1px solid black;
 }
+
