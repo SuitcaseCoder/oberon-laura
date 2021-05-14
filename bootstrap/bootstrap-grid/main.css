@@ -2,6 +2,14 @@ body {
     /*background-color: white;*/
 }
 
+.top-res {
+    margin: 50px 0;
+}
+
+h1 {
+    -webkit-text-stroke: 1px #DBD9DB;
+}
+
 h2,h3{
     font-width: 800px;
     color: #B098A4;
