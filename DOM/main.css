@@ -1,5 +1,37 @@
+header{
+    background: url('assets/martins-zemlickis-NPFu4GfFZ7E-unsplash.jpg');
+    background-size: cover;
+    min-height: 350px;
+
+}
+
 .section-container{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding: 50px 0;
+}
+
+#pasta {
+    background: url('assets/sheila-joy-ZAjcJ4BGJzQ-unsplash.jpg');
+    background-size: cover;
+    height: 250px;
+    border: 3px solid #f0f0f0;
+    /*margin: 15px;*/
+}
+
+#bed {
+    background: url('assets/nathan-oakley-kfIN3cGA5xE-unsplash.jpg');
+    background-size: cover;
+    height: 250px;
+    border: 3px solid #f0f0f0;
+    /*margin: 15px;*/
+}
+
+#fast {
+    background: url('assets/jonathan-chng-BJrgqUKYx8M-unsplash.jpg');
+    background-size: cover;
+    height: 250px;
+    border: 3px solid #f0f0f0;
+    /*margin: 15px;*/
 }

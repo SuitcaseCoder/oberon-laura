@@ -4,33 +4,48 @@
         <meta charset="UTF-8">
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        <meta http-equiv="X-UA-Compatible"
+              content="ie=edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+              rel="stylesheet"
               integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
               crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet"
+              href="main.css">
         <title>DOM</title>
     </head>
-    <body class="container">
+    <body>
         <!--    NAV BAR    -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar w/ text</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand"
+                   href="#">Navbar w/ text</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarText"
+                        aria-controls="navbarText"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarText">
+                <div class="collapse navbar-collapse"
+                     id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active"
+                               aria-current="page"
+                               href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link"
+                               href="#">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link"
+                               href="#">Pricing</a>
                         </li>
                     </ul>
                     <span class="navbar-text">
@@ -46,30 +61,66 @@
         </header>
 
         <!--        MAIN-->
-        <main class="main-container">
-            <section class="section-container">
-                <p id="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur illum
-                    itaque
-                    molestiae
-                    nesciunt omnis pariatur, perferendis qui quibusdam voluptatem! A aliquid beatae eligendi et ratione
-                    sequi soluta? Dolore, nobis.</p>
+        <main class="main-container container">
+            <section class="section-container row">
+                <p id="about-text col">Lorem ipsum dolor sit amet,
+                                       consectetur adipisicing elit. Autem
+                                       consequuntur illum
+                                       itaque
+                                       molestiae
+                                       nesciunt omnis pariatur, perferendis
+                                       qui quibusdam voluptatem! A aliquid
+                                       beatae eligendi et ratione
+                                       sequi soluta? Dolore, nobis.</p>
             </section>
-            <section class="section-container">
-                <div>
+            <section class="section-container row">
+                <div class="col-6">
                     <h2>Where</h2>
-                    <p>Whether you want to join us virtually or happen to live in the city you are always welcome!</p>
+                    <p>Whether you want to join us virtually or happen to
+                       live in the city you are always welcome!</p>
                 </div>
-                <div>
+                <div class="col-6">
                     <ul>
                         <h3>Virtual</h3>
                         <li>join us at <a href="#">runforfun.com</a></li>
                         <h3>In The City</h3>
-                        <li>join us at: <a href="#">The coolest spot in town</a></li>
+                        <li>join us at: <a href="#">The coolest spot in
+                                                    town</a></li>
                     </ul>
                 </div>
             </section>
+            <!-- THREE IMAGES-->
             <section class="section-container">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <!-- DISPLAY BY DEFAULT BUT HIDE AND REPLACE ON
+CLICK -->
+                        <div class="col-3"
+                             id="pasta">
+                            Carbo Load
+                        </div>
+                        <!--    HIDE BY DEFAULT BUT DISPLAY ON CLICK-->
+                        <div class="col-3"
+                             id="pasta-flipped">
+                            Carbo Load
+                        </div>
 
+                        <!-- DISPLAY BY DEFAULT BUT HIDE AND REPLACE ON
+CLICK -->
+                        <div class="col-3"
+                             id="bed-flipped">
+                            sleep well
+                        </div>
+                        <!-- DISPLAY BY DEFAULT BUT HIDE AND REPLACE ON
+CLICK -->
+                        <div class="col-3"
+                             id="fast-flipped">
+                            run fast
+                        </div>
+                    </div>
+
+
+                </div>
 
             </section>
 
