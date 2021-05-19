@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible"
+              content="ie=edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet"
+              href="./main.css">
+        <title>DOM Lecture</title>
+    </head>
+    <body>
+        <!--    NAV BAR    -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand"
+                   href="#">DOM</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#">One</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="#">Two</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="#">Three</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <!--  DOM EXAMPLES   -->
+
+        <!--  give elements a unique id-->
+
+        <div class="container-fluid border">
+            <div class="row border justify-content-evenly">
+                <div class="col-2 border" id="red">
+                    Column One
+                </div>
+                <div class="col-2 border" id="blue">
+                    Column Two
+                </div>
+                <div class="col-2 border" id="green">
+                    Column Three
+                </div>
+                <div class="col-2 border" id="orange">
+                    Column Four
+                </div>
+            </div>
+        </div>
+
+        <!-- FORMS -->
+        <form name="pizza">
+            <div>
+                <label for="first">first name</label>
+                <input id="first" name="first" type="text">
+            </div>
+            <div>
+                <label for="topping">Fave Pizza Toppin</label>
+                <input id="topping" name="topping" type="text">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+
+
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

@@ -21,18 +21,9 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand"
-                   href="#">Navbar w/ text</a>
-                <button class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarText"
-                        aria-controls="navbarText"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse"
-                     id="navbarText">
+                   href="#">run fun</a>
+                <!--<div class="collapse navbar-collapse"-->
+                <!--     id="navbarText">-->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active"
@@ -48,10 +39,7 @@
                                href="#">Pricing</a>
                         </li>
                     </ul>
-                    <span class="navbar-text">
-        Navbar text with an inline element
-      </span>
-                </div>
+                <!--</div>-->
             </div>
         </nav>
 
@@ -73,17 +61,19 @@
                                        beatae eligendi et ratione
                                        sequi soluta? Dolore, nobis.</p>
             </section>
-            <section class="section-container row">
+            <section class="section-container row justify-content-between">
                 <div class="col-6">
-                    <h2>Where</h2>
+                    <h3>Where</h3>
                     <p>Whether you want to join us virtually or happen to
                        live in the city you are always welcome!</p>
                 </div>
-                <div class="col-6">
+                <div class="col-5">
+                    <h3>Virtual</h3>
                     <ul>
-                        <h3>Virtual</h3>
                         <li>join us at <a href="#">runforfun.com</a></li>
-                        <h3>In The City</h3>
+                    </ul>
+                    <h3>In The City</h3>
+                    <ul>
                         <li>join us at: <a href="#">The coolest spot in
                                                     town</a></li>
                     </ul>
@@ -93,30 +83,110 @@
             <section class="section-container">
                 <div class="container">
                     <div class="row justify-content-between">
+
+                        <!-- ---- PASTA ---- -->
                         <!-- DISPLAY BY DEFAULT BUT HIDE AND REPLACE ON
 CLICK -->
                         <div class="col-3"
                              id="pasta">
-                            Carbo Load
                         </div>
                         <!--    HIDE BY DEFAULT BUT DISPLAY ON CLICK-->
-                        <div class="col-3"
+                        <div class="col-3 d-none"
                              id="pasta-flipped">
-                            Carbo Load
+                            <h3 class="flipped-title">Carbo Loading</h3>
+                            <p class="flipped-description">Pasta is
+                                                           good. Lorem
+                                                           ipsum dolor sit
+                                                           amet,
+                                                           consectetur
+                                                           adipisicing
+                                                           elit. Assumenda
+                                                           harum incidunt
+                                                           iure quas qui
+                                                           vitae.
+                                                           Architecto
+                                                           commodi
+                                                           dignissimos
+                                                           dolores earum
+                                                           iusto nobis
+                                                           perferendis
+                                                           soluta, tenetur.
+                                                           Architecto nisi
+                                                           perferendis
+                                                           recusandae
+                                                           velit.</p>
                         </div>
 
-                        <!-- DISPLAY BY DEFAULT BUT HIDE AND REPLACE ON
-CLICK -->
+                        <!-- ---- BED ---- -->
+
+                        <!-- SHOW -->
                         <div class="col-3"
+                             id="bed">
+                        </div>
+
+                        <!-- HIDE-->
+                        <div class="col-3 d-none"
                              id="bed-flipped">
-                            sleep well
+                            <h3 class="flipped-title">Sleep Well</h3>
+                            <p class="flipped-description">Sleep is
+                                                           important. Lorem
+                                                           ipsum dolor sit
+                                                           amet,
+                                                           consectetur
+                                                           adipisicing
+                                                           elit. Assumenda
+                                                           harum incidunt
+                                                           iure quas qui
+                                                           vitae.
+                                                           Architecto
+                                                           commodi
+                                                           dignissimos
+                                                           dolores earum
+                                                           iusto nobis
+                                                           perferendis
+                                                           soluta, tenetur.
+                                                           Architecto nisi
+                                                           perferendis
+                                                           recusandae
+                                                           velit.</p>
                         </div>
-                        <!-- DISPLAY BY DEFAULT BUT HIDE AND REPLACE ON
-CLICK -->
+
+
+                        <!-- ---- FAST ---- -->
+
+                        <!-- SHOW -->
                         <div class="col-3"
-                             id="fast-flipped">
-                            run fast
+                             id="fast">
                         </div>
+
+                        <!-- HIDE -->
+                        <div class="col-3 d-none"
+                             id="fast-flipped">
+                            <h3 class="flipped-title">Run Fast</h3>
+                            <p class="flipped-description">You're the
+                                                           fastest you
+                                                           can be. Lorem
+                                                           ipsum dolor sit
+                                                           amet,
+                                                           consectetur
+                                                           adipisicing
+                                                           elit. Assumenda
+                                                           harum incidunt
+                                                           iure quas qui
+                                                           vitae.
+                                                           Architecto
+                                                           commodi
+                                                           dignissimos
+                                                           dolores earum
+                                                           iusto nobis
+                                                           perferendis
+                                                           soluta, tenetur.
+                                                           Architecto nisi
+                                                           perferendis
+                                                           recusandae
+                                                           velit.</p>
+                        </div>
+
                     </div>
 
 
@@ -126,5 +196,6 @@ CLICK -->
 
         </main>
 
+        <script src="index.js"></script>
     </body>
 </html>
