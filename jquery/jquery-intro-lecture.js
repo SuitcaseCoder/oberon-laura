@@ -3,4 +3,9 @@
 // syntax
 //
 
-$("p").hide();
+// syntax - selecting by id
+
+//syntax - selecting by class
+
+// mini exercise:
+
