@@ -4,9 +4,10 @@
 function flipPasta() {
     console.log("clicked");
     //remove hide class on flipped card
-    document.getElementById("pasta-flipped").removeAttribute("class");
+    document.getElementById("pasta-flipped").setAttribute("class", " d-block");
+    console.log(document.getElementById("pasta-flipped"));
     //add show class on flipped card
-    document.getElementById("pasta-flipped").setAttribute("class", "col-3 d-block");
+    // document.getElementById("pasta-flipped").setAttribute("class", "col-3 d-block");
     // remove show class on card
     document.getElementById("pasta").removeAttribute("class");
     //add hide class on card

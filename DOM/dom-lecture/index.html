@@ -17,64 +17,146 @@
         <title>DOM Lecture</title>
     </head>
     <body>
-        <!--    NAV BAR    -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand"
-                   href="#">DOM</a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="#">One</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                           href="#">Two</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                           href="#">Three</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
 
-    <!--  DOM EXAMPLES   -->
 
-        <!--  give elements a unique id-->
+        <!--  DOM EXAMPLES   -->
 
+        <p class="red">
+            DOM is really fun!
+        </p>
+        <p id="light-green">
+            DOM is really fun!
+        </p>
+        <p class="red" id="unique">
+            DOM is really fun!
+        </p>
+
+        <!-- BOOTSTRAP GRID 1 row 4 columns-->
+        <!--container-->
         <div class="container-fluid border">
-            <div class="row border justify-content-evenly">
-                <div class="col-2 border" id="red">
-                    Column One
+            <!--row-->
+            <div class="row border">
+                <!--column-->
+                <div class="col border ">
+                    this is a column
                 </div>
-                <div class="col-2 border" id="blue">
-                    Column Two
+                <div class="col border">
+                    second column
                 </div>
-                <div class="col-2 border" id="green">
-                    Column Three
+                <div class="col border">
+                    third column
                 </div>
-                <div class="col-2 border" id="orange">
-                    Column Four
-                </div>
+            </div>
+            <div class="row border">
+                <div class="col border">col</div>
             </div>
         </div>
 
-        <!-- FORMS -->
-        <form name="pizza">
+        <!-- MINI EXERCISE-->
+        <div class="container-fluid border exercise">
+            <!--row-->
+            <div class="row border">
+                <!--column-->
+                <div class="col"
+                     id="red-border">
+                    1 - 1
+                    <p class="drk-grn">Lorem ipsum dolor sit amet, consectetur adipisicing
+                       elit. Animi cupiditate ducimus ex ipsam ipsum
+                       laudantium magnam natus nesciunt, officia quas rem
+                       sed tenetur. Accusantium aliquam illum, iste quidem
+                       rerum soluta?</p>
+                </div>
+                <div class="col blue-bkg"
+                     id="blue-border">
+                    1 - 2
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                       elit. Animi cupiditate ducimus ex ipsam ipsum
+                       laudantium magnam natus nesciunt, officia quas rem
+                       sed tenetur. Accusantium aliquam illum, iste quidem
+                       rerum soluta?</p>
+                </div>
+                <div class="col"
+                     id="orange-border">
+                    1 - 3
+                    <p class="drk-grn">Lorem ipsum dolor sit amet, consectetur adipisicing
+                       elit. Animi cupiditate ducimus ex ipsam ipsum
+                       laudantium magnam natus nesciunt, officia quas rem
+                       sed tenetur. Accusantium aliquam illum, iste quidem
+                       rerum soluta?</p>
+                </div>
+            </div>
+            <div class="row border">
+                <div class="col"
+                     id="pink-border">
+                    2 - 1
+                    <p class="drk-grn">Lorem ipsum dolor sit amet,
+                                    consectetur
+                         adipisicing
+                       elit. Animi cupiditate ducimus ex ipsam ipsum
+                       laudantium magnam natus nesciunt, officia quas rem
+                       sed tenetur. Accusantium aliquam illum, iste quidem
+                       rerum soluta?</p>
+                </div>
+                <div class="col blue-bkg"
+                     id="green-border">2 -2
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                       elit. Animi cupiditate ducimus ex ipsam ipsum
+                       laudantium magnam natus nesciunt, officia quas rem
+                       sed tenetur. Accusantium aliquam illum, iste quidem
+                       rerum soluta?</p>
+                </div>
+                <div class="col innerHTML"
+                     id="yellow-border">2 -3
+                    <p class="drk-grn" id="change-txt">Lorem ipsum dolor
+                           sit
+                           amet,
+                           consectetur
+                           adipisicing
+                           elit. Animi
+                           cupiditate ducimus
+                           ex ipsam ipsum
+                           laudantium magnam
+                           natus nesciunt,
+                           officia quas rem
+                           sed tenetur.
+                           Accusantium aliquam
+                           illum, iste quidem
+                           rerum solute?</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FORM -->
+        <form name="pizza" class="pizza">
             <div>
-                <label for="first">first name</label>
-                <input id="first" name="first" type="text">
+                <label for="topping">topping</label>
+                <input type="text" name="topping" id="topping">
             </div>
             <div>
-                <label for="topping">Fave Pizza Toppin</label>
-                <input id="topping" name="topping" type="text">
+                <label for="topping">size</label>
+                <input type="text" name="size" id="size">
             </div>
             <div>
                 <input type="submit">
             </div>
         </form>
+
+        <!-- Creating Elements -->
+        <div class="toBeFilled border">
+
+        </div>
+
+        <!--Append Child-->
+
+        <!-- remove elements -->
+        <h2>My Favorite Things</h2>
+        <ul id="my-list">
+            <li>Dogs</li>
+            <li>Doggos</li>
+            <li id="cats">Cats</li>
+            <li>Floofers</li>
+
+        </ul>
 
 
 

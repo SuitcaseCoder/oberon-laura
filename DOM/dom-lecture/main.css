@@ -1,6 +1,7 @@
 body {
-    color: white;
-    background-color: #37404f;
+    color: black;
+    /*background-color: #37404f;*/
+    background-color: tan;
 }
 
 .border {
@@ -9,18 +10,50 @@ body {
     margin: 3px;
 }
 
-#red {
-    background-color: red;
+.exercise {
+ margin: 50px 0;
 }
 
-#blue {
+#red-border {
+    border: 2px solid red;
+}
+
+#blue-border {
+    border: 2px solid blue;
+}
+
+#green-border {
+    border: 2px solid green;
+}
+
+#orange-border {
+    border: 2px solid orange;
+}
+
+#pink-border {
+    border: 2px solid pink;
+}
+
+#green-border {
+    border: 2px solid green;
+}
+
+#yellow-border {
+    border: 2px solid yellow;
+}
+
+.blue-bkg {
     background-color: blue;
 }
 
-#green {
-    background-color: green;
+.red {
+    color: red;
 }
 
-#orange {
-    background-color: orange;
+#light-green {
+    color: lightgreen;
+}
+
+.drk-grn {
+    color: darkgreen;
 }
