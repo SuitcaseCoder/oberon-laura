@@ -111,10 +111,57 @@
 //     console.log("hey the DOM is finsihed loading")
 // })
 
-function tellTime(){
-    console.log(new Date());
-}
+// function tellTime(){
+//     console.log(new Date());
+// }
+//
+// $(document).ready(tellTime());
+//
+// console.log($("h1"));
 
-$(document).ready(tellTime());
+//
 
-console.log($("h1"));
+// $("#blue").css({"color":"blue"});
+
+
+// any time you want to select multiple elements from the dom using jquery, all selectors must
+// be within one quotation and separated by commas. It's very similar to how selectors work in css
+
+// interpolator: ${} inside of template literal is not the same as the dollar sign in jQuery
+let myName = "Laura"
+let myTemplateLiteral = `Hello, my name is ${myName}. Nice to meet you`
+
+// selecting multiple elements
+// $("p , div").css({
+//     "font-size": "20px",
+//     "color": "red"
+// })
+//
+// $("#blue, .pink").css("font-family", "Arial");
+//
+// $("div p").css("font-family", "cursive");
+
+// .css("color","pink")
+
+// .css({
+//     "color":"orange",
+//     "font-family":"Montserrat"
+// })
+
+// let firstPar = $("#blue");
+//
+// firstPar.css("color", "pink");
+//
+// firstPar.hide();
+
+// all the elements inside all my divs
+$("div *").css("font-size", "3px");
+
+// all divs inside all elements
+$("* div").css("font-size","50px");
+
+$("ul *").css("color","red");
+
+console.log($("#blue"));
+
+// let allMyDiv = $("* div");
