@@ -165,3 +165,28 @@ $("ul *").css("color","red");
 console.log($("#blue"));
 
 // let allMyDiv = $("* div");
+
+// //
+
+// quick overview:
+// select elements in the dom using jquery
+// $("") ==> hey go look for the element I tell ya to in the document / selecting elements
+$("p")
+$(".red") //by class name
+$("#orange") //
+
+// jquery has a library of methods
+// methods ==> manipulate elements on the dom
+// .show() / .hide() / .hover() /
+$("p").hide();
+
+// event listeners --> it's a kind of method that gets chained onto an element that iwll be
+// listening for an even to take place which will trigger something completely different to happen
+
+// 1.which element is listening
+// for the event
+// //2. what is going to happen once the event takes place (function passed into the event listener)
+// within that "triggered function" you might need to select more elements
+
+// task: on the click of a btn, we want the background color of the header to change
+
