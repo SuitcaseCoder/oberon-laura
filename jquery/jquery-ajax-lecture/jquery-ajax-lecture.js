@@ -130,6 +130,8 @@
 //     })
 // })
 
+
+// you can chain them all together
 $.ajax("https://jsonplaceholder.typicode.com/posts").done(function(data){
     console.log(data);
     let dataId = data[25].id;
@@ -144,11 +146,11 @@ $.ajax("https://jsonplaceholder.typicode.com/posts").done(function(data){
     console.log("request was made.")
 })
 
-//
+// short hand:
 $.get("url goes here",{
 
 }).done(function(data){
-    // do something withthe data that you got back form api
+    // do something with the data that you got back form api
 })
 
 $.post("url", {
@@ -157,5 +159,4 @@ $.post("url", {
 })
 
 
-// TODO:
 
