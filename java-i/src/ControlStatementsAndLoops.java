@@ -58,19 +58,19 @@ public class ControlStatementsAndLoops {
 ////    **** different than js - in js we can do myName === yourName but
         // that doesn't work in java when comparing strings, we need to use the
         // .equals()/.equalsIgnoreCase() method
-        
+
 ////        .equals()
 //        System.out.println(myName.equals(yourName));
 ////        .equalsIgnoreCase
 //        System.out.println(myName.equalsIgnoreCase(yourName));
-        
+
 //        CONTROL STRUCTURES
 //
 //        IF STATEMENT
 //        if(/*condition*/){
 ////            execute code if condition is met to be true
 //        }
-        
+
 //        if(yourName.equalsIgnoreCase(myName)){
 //            System.out.println("we are twins that is it.");
 //        }
@@ -82,7 +82,7 @@ public class ControlStatementsAndLoops {
         //  the user to enter a username). if the username has already
         //  been used by user1, user2, or user3, print "sorry this
         //  username already exists.
-        
+
 //        String user1 = "puppiesRock82";
 //        String user2 = "frogsAreCoolerThanToads90";
 //        String user3 = "littleEinsteins21";
@@ -100,7 +100,7 @@ public class ControlStatementsAndLoops {
 ////            System.out.printf("congrats %s, your username has been " +
 ////                                      "registered", user4);
 //        }
-        
+
 
 //        SWITCH STATEMENTS
 //        char grade = 'F';
@@ -149,7 +149,7 @@ public class ControlStatementsAndLoops {
 //        condition is checked before
 //        do ... while will always be executed first before condition is
 //        met
-        
+
 //        int myNum = 0;
 //
 //        while(myNum <= 10){
@@ -167,16 +167,16 @@ public class ControlStatementsAndLoops {
 //        for ... loop
 
 //        int myNum = 18;
-        
+
 //        for(int myNum = 0; myNum <= 20; myNum++){
 //            System.out.println(myNum);
 //        }
 
+
+//          MINI EXERCISE
+        //TODO: using previous mini exercise, allow the user to input a new username several times until a unique username is entered.
         
-
-
-
-    
+        
     }
     
 }
