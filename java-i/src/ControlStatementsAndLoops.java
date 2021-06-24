@@ -5,16 +5,21 @@ public class ControlStatementsAndLoops {
         Scanner scanner = new Scanner(System.in);
 
 
-//        control flow:
+//        control flow: you can control the order in which your code is
+//        going to be executed
 
 
 //        boolean expressions:
 //        && relational operators (think strict?)
 //        equality ==
 //        inequality !=
-//        greater than > // >=
-//        less than < // <=
-        
+//        greater than >
+//        greater than or equal to >=
+//        less than <
+//        less than or equal to  <=
+
+//        in Java - you not only declare a variable but you also tell it
+//        what kind of data you're storing inside of this variable.
 //        String myFaveAnimal = "frog";
 //        System.out.println(myFaveAnimal);
 //
@@ -50,7 +55,10 @@ public class ControlStatementsAndLoops {
 ////        STRING COMPARISON Java
 //        String myName = "Laura";
 //        String yourName = "laura";
-////    ****
+////    **** different than js - in js we can do myName === yourName but
+        // that doesn't work in java when comparing strings, we need to use the
+        // .equals()/.equalsIgnoreCase() method
+        
 ////        .equals()
 //        System.out.println(myName.equals(yourName));
 ////        .equalsIgnoreCase
@@ -69,6 +77,12 @@ public class ControlStatementsAndLoops {
 
 
 //        MINI EXERCISE:
+        // TODO: create three unique usernames (user1, user2, user3).
+        //  create a fourth user and set it equal to user input. (ask
+        //  the user to enter a username). if the username has already
+        //  been used by user1, user2, or user3, print "sorry this
+        //  username already exists.
+        
 //        String user1 = "puppiesRock82";
 //        String user2 = "frogsAreCoolerThanToads90";
 //        String user3 = "littleEinsteins21";
@@ -110,10 +124,6 @@ public class ControlStatementsAndLoops {
 
 
 ////        TODO: refactor previous mini exercise into a switch statement
-//        String user1 = "firstUser";
-//        String user2 = "secondUser";
-//        String user3 = "thirdUser";
-//
 //
 //        System.out.printf("Please enter a username: ");
 //        String user4 = scanner.next();
@@ -158,33 +168,14 @@ public class ControlStatementsAndLoops {
 
 //        int myNum = 18;
         
-        for(int myNum = 0; myNum <= 20; myNum++){
-            System.out.println(myNum);
-        }
+//        for(int myNum = 0; myNum <= 20; myNum++){
+//            System.out.println(myNum);
+//        }
 
         
 
 
 
-
-//        logical operators
-
-
-//        string comparison
-
-//        control structures
-
-//        if statement
-
-//        MINI EXERCISE
-
-//        switch && break and continue
-
-//        while
-
-
-//        do while
-    
     
     }
     
