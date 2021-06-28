@@ -141,24 +141,60 @@ public class Strings {
 //        // indexOf a single char it wil return the index of the first
 //        // time it appears
 //
-        byte indexOfX =(byte) earthFact.indexOf('x');
-        System.out.println(indexOfX);
+//        explicit casting
+//        byte indexOfX = (byte) earthFact.indexOf('x'); //
+//        System.out.println(indexOfX);
+
+//        lastIndexOf(): return the index (int) from the end of the
+//        string,
+//            String scuba = "self contained underwater breathing apparatus";
+//            char letter = 'c';
+////        System.out.println(scuba.lastIndexOf('s'));
+//        System.out.println(scuba.indexOf('u'));
+//        String word = "underwater";
+//        System.out.println(scuba.lastIndexOf(word));
         
-        
-//        lastIndexOf():
 
 //        length():
+//        String superCali = "Supercalifragilisticexpialidocious";
+//        System.out.println(superCali.length());
 
-//        replace():
+////        replace(): return a copy of the string with the replacement
+//        String before = "giggles";
+//        String after = before.replace('i', 'o');
+//        System.out.println("Typo alert! you can't swith with: " + before + " but you can swim with: " + after);
 
-//        substring():
+//        substring(): return a new substring from the original string
+//        at the points in which you told it to extract from
+//        String danceArms = "Where are you supposed to put your arms when" +
+//                                   " you dance? It's like the universal " +
+//                                   "question.";
+//        int indexArms = danceArms.indexOf("arms"); //
+//        int indexQuestion = danceArms.indexOf('I');
+//        String newSentence = danceArms.substring(indexArms, indexQuestion);
+//        System.out.println(newSentence);
+        
 
 //        toLowerCase();
+//            String coders = "The Distance between looking like a genius " +
+//                                    "and Looking like an idiot in " +
+//                                    "programming? It’s one Character " +
+//                                    "wide.";
+//        System.out.println(coders);
+//        System.out.println(coders.toLowerCase());
+//        System.out.println(coders.toUpperCase());
 
 
 //        toUpperCase():
 
-//        trim():
+//        trim():  will return a copy of the string without any spaces
+//        before
+//        or
+//        after the string
+        System.out.println("give me some space: ");
+        String userInput = "hello world          ";
+        String newString = userInput.trim();
+        System.out.println(newString);
     
     
     }
