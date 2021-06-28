@@ -17,16 +17,11 @@ public class Strings {
 //
 
 //        String Comparison
-        String myFaveBand = "The Lumineers";
-        System.out.println(
-                myFaveBand.equalsIgnoreCase("the lumineers")); // true
-        System.out.println(
-                myFaveBand.equalsIgnoreCase("The Lumineers")); // true
-        System.out.println(
-                myFaveBand.equalsIgnoreCase("the Lumineers")); // true
-        System.out.println(
-                myFaveBand.equalsIgnoreCase("Lumineers")); // false
+//        .equalsIgnoreCase()
         
-        
+//        .startsWith()
+
+//        .endsWith()
+
     }
 }
