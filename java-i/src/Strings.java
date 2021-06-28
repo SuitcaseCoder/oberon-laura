@@ -79,7 +79,7 @@ public class Strings {
 //        } else {
 //            System.out.println("no pizza for me. I'm crazy");
 //        }
-        
+
 //        .equalsIgnoreCase()
 //        comparingToThis.equalsIgnoreCase()("what you're comparing");
 
@@ -106,13 +106,11 @@ public class Strings {
 //        System.out.println(myFaveBand.startsWith("The ")); // true
 
 
+////        .endsWith() - compare the last word in the orginal String,
+////        case-sensitive
+//        String myFaveBand = "The Lumineers";
+//        System.out.println(myFaveBand.endsWith("Lumineers")); // false
 
-
-//        .endsWith() - compare the last word in the orginal String,
-//        case-sensitive
-        String myFaveBand = "The Lumineers";
-        System.out.println(myFaveBand.endsWith("Lumineers")); // false
-        
 //        TODO: create a String variable that holds this sentence: "Red
 //         Orange Blue Yellow Green Purple". Prompt the user to type in
 //         their favorite color, if their fave color is the same as the
@@ -123,10 +121,30 @@ public class Strings {
 
 //        STRING MANIPULATION  METHODS
 
-//        charAt():
+//        charAt(): return char that's living in the slot of the
+//        index you provide. gotta save the returned value in a char
+//        variable. pass in an int
+//            String  myFaveWord = "hemoglobin";
+//            char fourth = myFaveWord.charAt(4);
+//        System.out.println(fourth);
 
-//        indexOf():
 
+//        indexOf(): return the index of the a substring that's being
+//        passed in, if that substring(char) doesn't exist, you'll see a
+//        -1;
+        String earthFact =
+                "Seventy percent of the oxygen on Earth comes from ocean algae. Without it, we couldn’t breathe.";
+        // System.out.println(earthFact.indexOf("oxygen")); // looking for
+//        // the indexOf a word will return the index of the first char of
+//        // that word
+//        System.out.println(earthFact.indexOf('o')); // look for the
+//        // indexOf a single char it wil return the index of the first
+//        // time it appears
+//
+        byte indexOfX =(byte) earthFact.indexOf('x');
+        System.out.println(indexOfX);
+        
+        
 //        lastIndexOf():
 
 //        length():
@@ -137,11 +155,10 @@ public class Strings {
 
 //        toLowerCase();
 
-        
+
 //        toUpperCase():
 
 //        trim():
-
     
     
     }
