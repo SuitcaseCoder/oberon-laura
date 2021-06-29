@@ -74,7 +74,8 @@ public class Strings {
 //
 
 //        String Comparison
-//          --> return true or false
+//         --> always returns true or false
+//        --> analogy: similar to comparing pillows to a couch. You don't take a couch to match the pillows you bring the pillows in to match the couch.
 //        syntax: couchYou'reComparingTo.stringComparison("pillow");
 
 //        .equals()

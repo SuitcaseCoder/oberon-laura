@@ -1,6 +1,5 @@
 package example;
 
-import java.rmi.dgc.VMID;
 import java.util.Scanner;
 
 public class Methods {
