@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class ControlStatementsAndLoops {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
+//        Strings myClass = new Strings();
+//
+//        myClass.exampleMethod();
 
 
 //        control flow: you can control the order in which your code is

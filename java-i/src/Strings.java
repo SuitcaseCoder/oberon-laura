@@ -2,7 +2,14 @@ import java.util.Locale;
 import java.util.Scanner;
 import java.util.Random;
 
+//import example.Methods;
+
+
 public class Strings {
+//    public void exampleMethod() {
+//
+//    }
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
