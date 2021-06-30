@@ -240,25 +240,60 @@ public class Methods {
 //    }
 
 
-//    2.
-public static void main(String[] args) {
-
-getInteger(1,10);
-}
+////    2.
+//public static void main(String[] args) {
+//
+//getInteger(1,10);
+//}
+//
+//    public static int getInteger(int min, int max) {
+//    Scanner sc = new Scanner(System.in);
+//    System.out.print("Enter a number between 1 and 10");
+//    int userInput = sc.nextInt();
+//        if(userInput >= min && userInput <= max){
+//            System.out.println("excellent! you win!");
+//            return userInput;
+//        } else {
+//            System.out.println("Sorry, please try again. Your number is " +
+//                                       "out of range");
+//            return getInteger(1,10);
+//        }
+//
+//    }
     
-    public static int getInteger(int min, int max) {
-    Scanner sc = new Scanner(System.in);
-    System.out.print("Enter a number between 1 and 10");
-    int userInput = sc.nextInt();
-        if(userInput >= min && userInput <= max){
-            System.out.println("excellent! you win!");
-            return userInput;
-        } else {
-            System.out.println("Sorry, please try again. Your number is " +
-                                       "out of range");
-            return getInteger(1,10);
-        }
-    
-    }
+//    //    2. -version two
+//    public static void main(String[] args) {
+//        int validInput = getInteger(1,10, new Scanner(System.in));
+//        System.out.printf("You entered a valid number: %s", validInput);
+//    }
+//
+//
+//    //    this allows us to use just one Scanner object rather than creating
+//    //    a new Scanner at every recursion
+//    public static int getInteger(int min, int max, Scanner sc) {
+//        System.out.print("Enter a number between 1 and 10");
+//        int userInput = sc.nextInt();
+//        if (userInput >= min && userInput <= max) {
+//            System.out.println("excellent! you win!");
+//            return userInput;
+//        } else {
+//            System.out.println("Sorry, please try again. Your number is " +
+//                                       "out of range");
+//            return getInteger(1, 10, sc);
+//        }
+//    }
+//    }
 
-}
+////    3.
+//public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+//    int userInput = sc.nextInt();
+//    factorial(userInput);
+//}
+//
+//public static int factorial(int numInput){
+//
+//    return;
+//}
+//
+//}
