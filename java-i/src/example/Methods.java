@@ -181,34 +181,59 @@ public class Methods {
 //    loop. A loop saves every loop in a new spot in memory recursion
 //    doesn't.
     
-    public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
-        System.out.println(" How many seats are there in the movie " +
-                                   "theatre?");
-        int seatsLeft = sc.nextInt();
-        movieTheatre(seatsLeft);
-    }
-    
-    public static void movieTheatre(int numSeats){
-        if(numSeats > 0) {
-            System.out.println("there are " + numSeats + " available.");
-    
-            numSeats--;
-            System.out.println("numSeats: " + numSeats);
-            movieTheatre(numSeats);
-        }
-        
-    }
+//    public static void main(String[] args) {
+//      Scanner sc = new Scanner(System.in);
+//        System.out.println(" How many seats are there in the movie " +
+//                                   "theatre?");
+//        int seatsLeft = sc.nextInt();
+//        movieTheatre(seatsLeft);
+//    }
+//
+//    public static void movieTheatre(int numSeats){
+//        if(numSeats > 0) {
+//            System.out.println("there are " + numSeats + " available.");
+//
+//            numSeats--;
+//            System.out.println("numSeats: " + numSeats);
+//            movieTheatre(numSeats);
+//        }
+//
+//    }
     
 //    TODO: you are a sports manager. Prompt your client who is training
 //     for a marathon how many miles they have to run today. You're the
 //     coach, so you decide how many miles they ran that day. print out
 //     how many miles they have left in training until they have 0 miles
 //     left.
+    
+    public static void main(String[] args) {
+        System.out.println( addition(2,4));
+        System.out.println(subtraction(100, 28));
+        System.out.println(multiplication(5,9));
+        System.out.println(division(45,21));
+        
+    }
 
 
-
-
+    public static int addition(int num1, int num2){
+            int sum = num1 + num2;
+            return sum;
+    }
+    
+    public static int subtraction(int num1, int num2){
+        int difference = num1 - num2;
+        return difference;
+    }
+    
+    public static int multiplication(int num1, int num2){
+        int product = num1 * num2;
+        return product;
+    }
+    
+    public static int division(int num1, int num2){
+        int quotient = num1 / num2;
+        return quotient;
+    }
 
 
 
