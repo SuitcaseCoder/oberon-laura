@@ -95,6 +95,15 @@ public class Person {
         return hasSkin;
     }
     
+//     unique class member that does this for us needs to be defined in
+//     oop flike
+    public String getEntertainment(String entertainment){
+    
+//            return a string that will tell us what the person is doing
+        // ex: Laura is going to go ride a rollerCoaster
+            return this.nameOfPerson + " is going to go " + entertainment;
+    }
+    
 
 
 }

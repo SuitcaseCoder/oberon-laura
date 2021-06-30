@@ -12,14 +12,26 @@ public class ObjectOrientedProgramming {
 //        System.out.println(person);
 
 //        SECOND EXAMPLE
-        Person personTwo = new Person();
-        personTwo.setNameOfPerson("LauraTwo");
-        // this returns the name of this instance of the class and
-        // returns a copy of the name
-        System.out.println(personTwo.getNameOfPerson());
-        
-    }
+//        Person personTwo = new Person();
+//        personTwo.setNameOfPerson("LauraTwo");
+//        // this returns the name of this instance of the class and
+//        // returns a copy of the name
+//        System.out.println(personTwo.getNameOfPerson());
     
-    // STATE MANAGEMENT
-
+    
+        //    THIRD EXAMPLE
+        Person personThree = new Person();
+        personThree.setNameOfPerson("Laura");
+        System.out.println(personThree.getEntertainment("ride a roller " +
+                                                                "coaster"));
+        
+        Person personFour = new Person();
+        personFour.setNameOfPerson("Tiff");
+        System.out.println(personFour.getEntertainment("go tubing the " +
+                                                               "river"));
+    
+    
+        // STATE MANAGEMENT
+    
+    }
 }
