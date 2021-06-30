@@ -205,36 +205,60 @@ public class Methods {
 //     coach, so you decide how many miles they ran that day. print out
 //     how many miles they have left in training until they have 0 miles
 //     left.
-    
-    public static void main(String[] args) {
-        System.out.println( addition(2,4));
-        System.out.println(subtraction(100, 28));
-        System.out.println(multiplication(5,9));
-        System.out.println(division(45,21));
-        
-    }
+
+// ----------- exercises -------------
 
 
-    public static int addition(int num1, int num2){
-            int sum = num1 + num2;
-            return sum;
-    }
-    
-    public static int subtraction(int num1, int num2){
-        int difference = num1 - num2;
-        return difference;
-    }
-    
-    public static int multiplication(int num1, int num2){
-        int product = num1 * num2;
-        return product;
-    }
-    
-    public static int division(int num1, int num2){
-        int quotient = num1 / num2;
-        return quotient;
-    }
+//    1.
+//    public static void main(String[] args) {
+//        System.out.println( addition(2,4));
+//        System.out.println(subtraction(100, 28));
+//        System.out.println(multiplication(5,9));
+//        System.out.println(division(45,21));
+//
+//    }
+//
+//
+//    public static int addition(int num1, int num2){
+//            int sum = num1 + num2;
+//            return sum;
+//    }
+//
+//    public static int subtraction(int num1, int num2){
+//        int difference = num1 - num2;
+//        return difference;
+//    }
+//
+//    public static int multiplication(int num1, int num2){
+//        int product = num1 * num2;
+//        return product;
+//    }
+//
+//    public static int division(int num1, int num2){
+//        int quotient = num1 / num2;
+//        return quotient;
+//    }
 
 
+//    2.
+public static void main(String[] args) {
+
+getInteger(1,10);
+}
+    
+    public static int getInteger(int min, int max) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter a number between 1 and 10");
+    int userInput = sc.nextInt();
+        if(userInput >= min && userInput <= max){
+            System.out.println("excellent! you win!");
+            return userInput;
+        } else {
+            System.out.println("Sorry, please try again. Your number is " +
+                                       "out of range");
+            return getInteger(1,10);
+        }
+    
+    }
 
 }
