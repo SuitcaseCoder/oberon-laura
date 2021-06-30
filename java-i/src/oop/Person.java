@@ -12,6 +12,9 @@ public class Person {
         private int ageOfPerson;
         private String heightOfPerson;
         private String nationalityOfPerson;
+        // static -> makes this variable constant with every instance of
+        // this class
+        private static final boolean hasSkin = true;
 
 //    Constructor - a special method in a class that tells java to make
 //    a class of this class (allows us to create an instance of a Person
@@ -36,6 +39,56 @@ public class Person {
 
 //    Properties - methods on the classes that help us execute behavior
 //    of an object
+
+    // command + n
+    // click getter and setter
+    // these are going to create 'getter' and 'setter' properties on the
+    // class for the properties we choose
+    //
+    
+    // since original nameOfPerson is set to private I can't access it
+    // in an instance of this class but since I am setting a public
+    // method then anyone can get/set the nameOfPerson - this allows
+    // people to get the name
+    public String getNameOfPerson() {
+        return nameOfPerson;
+    }
+    
+    // this allows others to set or re-assign the name
+    public void setNameOfPerson(String nameOfPerson) {
+            // this - means this instance of the person (from wherever
+        // setNameOfPerson is being called from
+        this.nameOfPerson = nameOfPerson;
+    }
+    
+    public int getAgeOfPerson() {
+        return ageOfPerson;
+    }
+    
+    public void setAgeOfPerson(int ageOfPerson) {
+        this.ageOfPerson = ageOfPerson;
+    }
+    
+    public String getHeightOfPerson() {
+        return heightOfPerson;
+    }
+    
+    public void setHeightOfPerson(String heightOfPerson) {
+        this.heightOfPerson = heightOfPerson;
+    }
+    
+    public String getNationalityOfPerson() {
+        return nationalityOfPerson;
+    }
+    
+    public void setNationalityOfPerson(String nationalityOfPerson) {
+        this.nationalityOfPerson = nationalityOfPerson;
+    }
+    
+    public static boolean isHasSkin() {
+        return hasSkin;
+    }
+    
 
 
 }
