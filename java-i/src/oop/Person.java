@@ -18,11 +18,11 @@ public class Person {
 
 //    Constructor - a special method in a class that tells java to make
 //    a class of this class (allows us to create an instance of a Person
-//    class)
+//    class). constructors have to be named the same of the class
         // because this is set to public i can inject values into this
 // person
         public Person(String nameOfPerson, int ageOfPerson,
-                String heightOfPerson, String nationalityOfPerson){
+                String heightOfPerson, String nationalityOfPerson) {
             // inject these values into the fields
             // this - refers to the Person class created at the top of
             // this file
@@ -33,8 +33,14 @@ public class Person {
             this.ageOfPerson = ageOfPerson;
             this.heightOfPerson = heightOfPerson;
             this.nationalityOfPerson = nationalityOfPerson;
-            
         }
+        
+        // this empty constructor is needed if we want to make an
+        // instance of the Person class without any 'injectables'
+        // (potential arguments)
+        public Person(){
+        }
+        
     
 
 //    Properties - methods on the classes that help us execute behavior
