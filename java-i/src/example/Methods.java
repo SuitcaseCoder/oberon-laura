@@ -284,16 +284,18 @@ public class Methods {
 //    }
 //    }
 
-////    3.
-//public static void main(String[] args) {
-//    Scanner sc = new Scanner(System.in);
-//    int userInput = sc.nextInt();
-//    factorial(userInput);
-//}
-//
-//public static int factorial(int numInput){
-//
-//    return;
-//}
-//
-//}
+    //    3.
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int userInput = sc.nextInt();
+        factorial(userInput);
+    }
+    
+    public static int factorial(int numInput){
+    
+        return 0;
+    }
+
+
+
+}
