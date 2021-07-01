@@ -96,7 +96,7 @@ public class Person {
     }
     
 //     unique class member that does this for us needs to be defined in
-//     oop flike
+//     oop
     public String getEntertainment(String entertainment){
     
 //            return a string that will tell us what the person is doing

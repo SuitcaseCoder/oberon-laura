@@ -284,18 +284,31 @@ public class Methods {
 //    }
 //    }
 
-    //    3.
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int userInput = sc.nextInt();
-        factorial(userInput);
-    }
+//    //    3.
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int userInput = sc.nextInt();
+//        factorial(userInput);
+//    }
+//
+//    public static int factorial(int num){
+//        if(num == 1) {
+//            return 1;
+//        }
+//        int result = factorial(num - 1) * num;
+//        return result;
+//    }
+//
+//    class FactorialExample{
+//        public static void main(String args[]){
+//            int i,fact=1;
+//            int number=5;//It is the number to calculate factorial
+//            for(i=1;i<=number;i++){
+//                fact=fact*i;
+//            }
+//            System.out.println("Factorial of "+number+" is: "+fact);
+//        }
+//    }
     
-    public static int factorial(int numInput){
     
-        return 0;
-    }
-
-
-
 }
