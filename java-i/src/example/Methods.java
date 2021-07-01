@@ -301,21 +301,23 @@ public class Methods {
 //        return result;
 //    }
 
-//    // 4. Roll dice
-public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("please enter a number of sides:");
-        int userInput = sc.nextInt();
-        System.out.println(rollDice(userInput));
-}
-
-public static String rollDice(int sides){
-    int firstNum = (int) (Math.random() * sides);
-    int secondNum = (int) (Math.random() * sides);
-    
-    return "You rolled a " + firstNum + " and a " + secondNum;
-    
-}
+////    // 4. Roll dice
+//public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("please enter a number of sides:");
+//        int userInput = sc.nextInt();
+//        System.out.println(rollDice(userInput,new Scanner(System.in)));
+//}
+//
+//public static String rollDice(int sides, Scanner scan){
+//    int firstNum = (int) (Math.random() * sides);
+//    int secondNum = (int) (Math.random() * sides);
+//
+//
+//
+//    return "You rolled a " + firstNum + " and a " + secondNum;
+//
+//}
 
 
 //    }
