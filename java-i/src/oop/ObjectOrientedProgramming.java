@@ -31,7 +31,7 @@ public class ObjectOrientedProgramming {
                                                                "river"));
     
     
-        // STATE MANAGEMENT
+        // WARMUP
         
         // TODO: CREATE A NEW "OBERON" CLASS WITH AT LEAST 6 PROPERTIES
         //  THAT DESCRIBE OUR OBERON COHORT. MAKE SURE TO INCLUDE
@@ -40,8 +40,7 @@ public class ObjectOrientedProgramming {
         //  PRINT OUT A STRING THAT USES AT LEAST 3 OF THOSE PROPERTIES
         //  TO DESCRIBE THAT OBERON INSTANCE.
         
-        OberonCohort firstInstance = new OberonCohort();
-        firstInstance.name
+
     
     }
 }

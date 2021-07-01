@@ -287,8 +287,10 @@ public class Methods {
 //    //    3.
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
+//        System.out.println("please enter a number:");
 //        int userInput = sc.nextInt();
-//        factorial(userInput);
+//
+//        System.out.println(factorial(userInput));
 //    }
 //
 //    public static int factorial(int num){
@@ -298,16 +300,24 @@ public class Methods {
 //        int result = factorial(num - 1) * num;
 //        return result;
 //    }
-//
-//    class FactorialExample{
-//        public static void main(String args[]){
-//            int i,fact=1;
-//            int number=5;//It is the number to calculate factorial
-//            for(i=1;i<=number;i++){
-//                fact=fact*i;
-//            }
-//            System.out.println("Factorial of "+number+" is: "+fact);
-//        }
+
+//    // 4. Roll dice
+public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("please enter a number of sides:");
+        int userInput = sc.nextInt();
+        System.out.println(rollDice(userInput));
+}
+
+public static String rollDice(int sides){
+    int firstNum = (int) (Math.random() * sides);
+    int secondNum = (int) (Math.random() * sides);
+    
+    return "You rolled a " + firstNum + " and a " + secondNum;
+    
+}
+
+
 //    }
     
     
