@@ -8,11 +8,22 @@ public class ManagerTwo extends EmployeeTwo{
 //    }
     
     public static void main(String[] args) {
-//        Employee Joe = new Employee();
-//        System.out.println(Joe);
         ManagerTwo Susy = new ManagerTwo();
         Susy.nameOfEmployee = "Susy";
-        System.out.println(Susy.nameOfEmployee);
+        Susy.department = "Marketing";
+        System.out.println(Susy.nameOfEmployee + " works as a manager in" +
+                                   " the: " + Susy.department);
+        
+        // we don't know what the implementation of this is yet
+        EmployeeTwo Bob;
+        // logic goes here
+        Bob = new ManagerTwo();
+        
+        
+        Bob.nameOfEmployee = "Bob";
+        Bob.department = "Sales";
+        System.out.println(Bob.nameOfEmployee + " works as a manager in" +
+                                   " the: " + Bob.department);
     }
     
     
