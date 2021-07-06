@@ -4,7 +4,7 @@ public class InterfacesAndAbstractClasses {
     }
     
     // syntax:
-    abstract class Vehicle(){
+    abstract class Vehicle {
         // abstract method:
         public abstract void move();
     }
