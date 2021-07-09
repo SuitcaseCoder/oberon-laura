@@ -1,6 +1,7 @@
 package Annotations;
+//import java.util.List;
+//import java.util.ArrayList;
 
-import java.util.ArrayList;
 
 class Red {
     public void show(){
@@ -23,6 +24,8 @@ class Orange extends Red{
     public void showTheColorThatILikeTheMostfromTheRainbow(){
         System.out.println("I am Red");
     }
+    
+
 
 }
 
@@ -37,9 +40,9 @@ public class AnnotationsMain {
         // this will call the method in class Orange
         orangeObj.show(); // I am Orange
         
-
     }
     
     
+
 
 }
