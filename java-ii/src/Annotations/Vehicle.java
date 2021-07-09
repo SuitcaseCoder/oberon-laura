@@ -6,7 +6,7 @@ public class Vehicle {
     
     public String name;
     public String size;
-    @Deprecated
+//    @Deprecated
     public String territory;
     
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Vehicle {
         train.size = "large";
         train.territory = "railroad tracks";
     
-        @Deprecated
+//        @Deprecated
         String aboutVehicle =
                 "The " + train.name + " is a cool " + "vehicle," +
                         " because it moves forward on: " + train.territory;
