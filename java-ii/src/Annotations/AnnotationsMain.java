@@ -9,7 +9,7 @@ class Red {
     }
     
     public void showTheColorThatILikeTheMostFromTheRainbow(){
-        System.out.println("I am Red");
+        System.out.println("I am showing rainbow color: red");
     }
     
 }
@@ -22,7 +22,7 @@ class Orange extends Red{
     
 //    @Override
     public void showTheColorThatILikeTheMostfromTheRainbow(){
-        System.out.println("I am Red");
+        System.out.println("I am showing rainbowColor: orange");
     }
     
 
@@ -35,10 +35,12 @@ public class AnnotationsMain {
         Red redObj = new Red();
         // this will call the method in class Red
         redObj.show(); // I am Red
+        redObj.showTheColorThatILikeTheMostFromTheRainbow();
         
         Orange orangeObj = new Orange();
         // this will call the method in class Orange
         orangeObj.show(); // I am Orange
+        orangeObj.showTheColorThatILikeTheMostfromTheRainbow();
         
     }
     
