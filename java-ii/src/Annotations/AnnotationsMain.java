@@ -1,50 +1,41 @@
 package Annotations;
-//import java.util.List;
+import java.util.List;
 //import java.util.ArrayList;
 
+// red
 
-class Red {
-    public void show(){
-        System.out.println("I am Red");
-    }
-    
-    public void showTheColorThatILikeTheMostFromTheRainbow(){
-        System.out.println("I am showing rainbow color: red");
-    }
-    
-}
-
-class Orange extends Red{
-    // this overrides the method in A
-    public void show(){
-        System.out.println("I am Orange");
-    }
-    
-//    @Override
-    public void showTheColorThatILikeTheMostfromTheRainbow(){
-        System.out.println("I am showing rainbowColor: orange");
-    }
-    
+//orange
 
 
-}
+import java.util.ArrayList;
 
 public class AnnotationsMain {
 
+
+//// should give us warning because the expected return type and actual return type are different
+////    @SuppressWarnings("unchecked")
+//    public List<String> languages(){
+//        return new ArrayList();
+//    }
+    
     public static void main(String[] args) {
-        Red redObj = new Red();
-        // this will call the method in class Red
-        redObj.show(); // I am Red
-        redObj.showTheColorThatILikeTheMostFromTheRainbow();
-        
-        Orange orangeObj = new Orange();
-        // this will call the method in class Orange
-        orangeObj.show(); // I am Orange
-        orangeObj.showTheColorThatILikeTheMostfromTheRainbow();
+        // suppress warning - suppresses any warnings
+        @SuppressWarnings("unused")
+        int randomNum = (int) (Math.random()*10);
         
     }
+    
+    // @Override - checks to see if the parent class has the same method
+    // tells the compiler that the method will be override
+    // meet the specs of a particular class in which you're using the
+    // method
+    // catch any error - at compile
+    
+    
     
     
 
 
 }
+
+
