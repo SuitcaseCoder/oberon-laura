@@ -7,6 +7,7 @@ public class ExceptionsAndErrorHandling {
     private static Object ArithmeticException;
     
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
     
         // COMMON EXCEPTION EXAMPLES
         // //parseInt Exception
@@ -89,7 +90,28 @@ public class ExceptionsAndErrorHandling {
 //            System.out.println("This will always run.");
 //        }
 
-//        USING E - THE ERROR OBJECT
+//        WARM UP
+        // TODO Given this string: `String str = "Oberon is the
+        //  best cohort ever!"`, print out the character from that
+        //  string using a random number generator, that generates
+        //  a number between 0 and 50. Using a try/catch block, handle
+        //  any errors (Exceptions) that may occur by printing out the
+        //  message.
+//        String str="Oberon is the best cohort ever!";
+//        System.out.printf("string length: %s%n",str.length());;
+//        int randomNum = (int)(Math.random()*50);
+//        System.out.printf("random number: %s%n", randomNum);
+//
+//        try{
+//            char c;
+//            c = str.charAt(randomNum);
+//            System.out.println(c);
+//        }catch(StringIndexOutOfBoundsException e){
+//            e.printStackTrace();
+//            System.out.println("Oh no, you've got a problem");
+//        }
+
+// //        USING E - THE ERROR OBJECT
 //        int[] numbersTwo = {1, 2, 3};
 //        int y;
 //
@@ -100,10 +122,16 @@ public class ExceptionsAndErrorHandling {
 //            System.out.printf("Caught a generic exception: %s%n", e);
 //            String msg = e.getMessage();
 //            System.out.println(msg);
+//            e.printStackTrace();
 //        }
+    
+    }
+
+//        CHECKED EXCEPTIONS
+
 
 
 //    }
-    }
+    
     // CHECK ELIGIBILITY METHOD
 }
