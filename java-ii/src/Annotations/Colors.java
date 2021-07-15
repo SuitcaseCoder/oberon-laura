@@ -15,7 +15,7 @@ class Orange extends Red{
     
     // hey this method should be overriding the method in its parent
     // class of red
-    @Override
+//    @Override
     public void showMyFavoriteColorOfAllTimeFromTheRainbow(){
         System.out.println("I am orange");
     }
