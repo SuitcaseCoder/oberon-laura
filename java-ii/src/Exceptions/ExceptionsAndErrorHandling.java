@@ -34,7 +34,8 @@ public class ExceptionsAndErrorHandling {
 
 ////        CHECK ACCOUNT ELIGIBILITY
 //        Scanner sc = new Scanner(System.in);
-//        System.out.println("Let's see if you're eligible to appy for a " +
+//        System.out.println("Let's see if you're eligible to apply for
+//        a " +
 //                                   "new bank account at Bank Di Laura");
 //        System.out.println("What's your age?");
 //        int userAge = sc.nextInt();
@@ -126,12 +127,5 @@ public class ExceptionsAndErrorHandling {
 //        }
     
     }
-
-//        CHECKED EXCEPTIONS
-
-
-
-//    }
     
-    // CHECK ELIGIBILITY METHOD
 }
